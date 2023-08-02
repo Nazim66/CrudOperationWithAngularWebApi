@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\NAZIM\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\NAZIM\\.nuget\\packages"
+    ]
+  }
+}

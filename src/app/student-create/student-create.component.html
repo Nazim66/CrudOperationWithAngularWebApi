@@ -1,0 +1,128 @@
+<div>
+    <form #studentData ="ngForm" (ngSubmit) = "getStudentData(studentData.value)" class="mt-2">
+        <div class="row ml-4">
+            <div class="col-2">
+                <label>First Name</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="firstName" class="form-control" />
+            </div>
+            <div class="col-2">
+                <label>Last Name</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="lastName" class="form-control" />
+            </div>
+        </div>
+        <div class="row ml-4">
+            <div class="col-2">
+                <label>Roll</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="roll" class="form-control" />
+            </div>
+            <div class="col-2">
+                <label>Class</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="class" class="form-control" />
+            </div>
+        </div>
+        <div class="row ml-4">
+            <div class="col-2">
+                <label>Section</label>
+            </div>
+            <div class="col-4">
+                <select ngModel name="section" class="form-control">
+                    <option>Please Select</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <label>Mobile Number</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="mobileNumber" class="form-control" />
+            </div>
+        </div>
+        <div class="row ml-4">
+            <div class="col-2">
+                <label>Father's Name</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="fathersName" class="form-control" />
+            </div>
+            <div class="col-2">
+                <label>Mother's Name</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="mothersName" class="form-control" />
+            </div>
+        </div>
+        <div class="row ml-4">
+            <div class="col-2">
+                <label>PSC GPA</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="psc" class="form-control" />
+            </div>
+            <div class="col-2">
+                <label>Passing Year</label>
+            </div>
+            <div class="col-4">
+                <select ngModel name="pscPassingYear" class="form-control">
+                    <option>Please Select</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                </select>
+            </div>
+        </div>
+        <div class="row ml-4">
+            <div class="col-2">
+                <label>SSC GPA</label>
+            </div>
+            <div class="col-4">
+                <input ngModel name="ssc" class="form-control" />
+            </div>
+            <div class="col-2">
+                <label>Passing Year</label>
+            </div>
+            <div class="col-4">
+                <select ngModel name="sscPassingYear" class="form-control">
+                    <option>Please Select</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+</div>
